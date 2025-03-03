@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1" />
+  <link href="../../dist/output.css" rel="stylesheet">
+  <link href="../css/swiper.min.css" rel="stylesheet">
+  <title>index</title>
+</head>
+
+<body class="w-full mx-auto bg-dark">
+
+  <div id="overlay"></div>
+
+  <!-- menu -->
+   <div class="mobileMenu w-64 bg-black fixed top-0 bottom-0 z-50 -left-72 transition">
+     <ul class="p-6 font-semibold">
+      <li class="mb-8"><a class="text-white hover:text-primary text-2xl">Ev</a></li>
+      <li class="mb-8"><a class="text-white hover:text-primary text-2xl">Hakkımızda</a></li>
+      <li class="mb-8"><a class="text-white hover:text-primary text-2xl">Hizmetler</a></li>
+      <li class="mb-8"><a class="text-white hover:text-primary text-2xl">Haberler</a></li>
+     </ul>
+   </div>
+
+  <!-- header -->
+  <header class="z-10 relative">
+    <div class="max-w-content mx-auto px-4 py-10">
+      <div class="flex items-center lg:justify-between justify-end">
+        <ul class="text-white hidden lg:flex items-center gap-6 text-2xl">
+          <li class="transition hover:text-primary">
+            <a>Ev</a>
+          </li>
+          <div class="bg-white h-6 w-[1px]"></div>
+          <li class="transition hover:text-primary">
+            <a>Hakkımızda</a>
+          </li>
+          <div class="bg-white h-6 w-[1px]"></div>
+          <li class="transition hover:text-primary">
+            <a>Hizmetler</a>
+          </li>
+          <div class="bg-white h-6 w-[1px]"></div>
+          <li class="transition hover:text-primary">
+            <a>Haberler</a>
+          </li>
+        </ul>
+        <div class="flex items-center gap-4">
+          <div class="cursor-pointer w-10 h-10 ml-auto lg:hidden" id="openMenu">
+            <svg class="w-6 sm:w-10" width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4.11169 20H36.1117" stroke="white" stroke-width="3" stroke-linecap="round"/>
+              <path d="M19.1117 10L36.1117 10" stroke="white" stroke-width="3" stroke-linecap="round"/>
+              <path d="M4.11169 30L21.1117 30" stroke="white" stroke-width="3" stroke-linecap="round"/>
+              </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- main -->
+  <main>
+
+    <section class="px-4 banner flex items-center justify-start relative">
+      <img alt="img" src="../img/pic.png" class="absolute top-0 left-0 max-w-[59%] w-full">
+      <div class="max-w-content px-4 h-full">
+        <div class="swiper swiperBanner h-full">
+           <div class="swiper-wrapper h-full">
+             <div class="swiper-slide">
+                 <div class="h-full flex items-center">
+                  <div>
+                    <h1 class="text-white font-bold text-xl sm:text-2xl lg:text-[42px]">
+                      <span class="text-primary text-4xl lg:text-[50px]">Heyecan</span>,<br class="sm:hidden"> şans ve büyük kazançlar
+                    </h1>
+                    <h3 class="text-white text-xl lg:text-[28px] mt-4">Oynayın ve kazanın</h3>
+                    <a class="btnHover mt-[38px] bg-primary text-dark sm:text-xl rounded-2xl sm:rounded-3xl w-36 sm:w-[207px] h-10 sm:h-[72px] flex-center">giriş yapmak</a>
+                  </div>
+                 </div>
+             </div>
+             <div class="swiper-slide">
+                 <div class="h-full flex items-center">
+                  <div>
+                    <h1 class="text-white font-bold text-xl sm:text-2xl lg:text-[42px]">
+                      <span class="text-primary text-4xl lg:text-[50px]">Heyecan</span>,<br class="sm:hidden"> şans ve büyük kazançlar
+                    </h1>
+                    <h3 class="text-white text-xl lg:text-[28px] mt-4">Oynayın ve kazanın</h3>
+                    <a class="btnHover mt-[38px] bg-primary text-dark sm:text-xl rounded-2xl sm:rounded-3xl w-36 sm:w-[207px] h-10 sm:h-[72px] flex-center">giriş yapmak</a>
+                  </div>
+                 </div>
+             </div>
+           </div>
+           <div class="swiper-button-next"></div>
+           <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="md:py-40 py-24 relative">
+      <img alt="img" src="../img/pic (2).png" class="absolute top-0 right-0">
+      <div class="max-w-content mx-auto px-4 relative">
+       <div class="grid md:grid-cols-2 grid-cols-1 gap-14 items-center">
+         <div>
+          <img alt="img" src="../img/about pic.png" class="rounded-3xl border-[3px] border-[#4C280F] w-full">
+         </div>
+         <div>
+          <h2 class="text-[28px] text-white font-medium">Heyecanın bitmediği yer</h2>
+          <p class="text-xl text-gray text-justify mt-6">
+            Size benzersiz bir çevrimiçi casino oyunları deneyimi sunduk. En iyi  slot,
+poker, rulet ve patlayıcı oyunlarla şansınızı deneyin ve büyük  ödüller
+kazanın.Güvenlik, hız ve heyecan önceliğimizdir. Bize katılın ve oyunu yeni
+bir seviyeye taşıyın.
+          </p>
+          <a class="btnHover mt-6 bg-primary text-dark text-xl rounded-3xl w-[207px] h-14 flex-center">Daha Fazla Gör</a>
+         </div>
+       </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="max-w-content mx-auto px-4">
+        <div class="flex flex-col md:flex-row text-center items-center justify-center md:justify-between gap-2">
+          <h2 class="font-semibold text-white text-2xl md:text-4xl">Popüler oyunların listesi</h2>
+         <a class="flex items-center gap-1 text-primary hover:text-blue-700 text-xl group">
+          <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path class="transition group-hover:stroke-blue-700" d="M25.1109 16.7133H6.60815" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="transition group-hover:stroke-blue-700" d="M18.5028 23.3215L25.1109 16.7134" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="transition group-hover:stroke-blue-700" d="M18.5028 10.1052L25.1109 16.7133" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+           <p>Daha Fazla Gör</p>
+         </a>
+        </div>
+        <div class="sm:px-4 relative">
+          <div class="swiper popular mt-[72px]">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="border-[2.5px] border-[#4C280F] rounded-3xl p-4 pb-6 bg-gradient-1">
+                   <img alt="img" src="../img/3d-casino-roulette02.png" class="rounded-3xl h-[225px] sm:h-[295px] w-full">
+                   <h4 class="text-2xl text-white font-semibold mt-4">Rulet oyunu</h4>
+                   <p class="mt-3 text-xl text-white">
+                    Slot oyunu, en popüler casino oyunlarından biridir ve
+  tamamen şansa dayalıdır
+                   </p>
+                   <a class="flex items-center gap-1 text-primary hover:text-blue-700 text-xl group mt-4">
+                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="transition group-hover:stroke-blue-700" d="M25.1109 16.7133H6.60815" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path class="transition group-hover:stroke-blue-700" d="M18.5028 23.3215L25.1109 16.7134" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path class="transition group-hover:stroke-blue-700" d="M18.5028 10.1052L25.1109 16.7133" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+                     <p>Daha Fazla Gör</p>
+                   </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="border-[2.5px] border-[#4C280F] rounded-3xl p-4 pb-6 bg-gradient-1">
+                   <img alt="img" src="../img/[].png" class="rounded-3xl h-[225px] sm:h-[295px] w-full">
+                   <h4 class="text-2xl text-white font-semibold mt-4">Poker oyunu</h4>
+                   <p class="mt-3 text-xl text-white">
+                    Slot oyunu, en popüler casino oyunlarından biridir ve
+  tamamen şansa dayalıdır
+                   </p>
+                   <a class="flex items-center gap-1 text-primary hover:text-blue-700 text-xl group mt-4">
+                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="transition group-hover:stroke-blue-700" d="M25.1109 16.7133H6.60815" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path class="transition group-hover:stroke-blue-700" d="M18.5028 23.3215L25.1109 16.7134" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path class="transition group-hover:stroke-blue-700" d="M18.5028 10.1052L25.1109 16.7133" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+                     <p>Daha Fazla Gör</p>
+                   </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="border-[2.5px] border-[#4C280F] rounded-3xl p-4 pb-6 bg-gradient-1">
+                   <img alt="img" src="../img/7639662032-min.png" class="rounded-3xl h-[225px] sm:h-[295px] w-full">
+                   <h4 class="text-2xl text-white font-semibold mt-4">Slot oyunu</h4>
+                   <p class="mt-3 text-xl text-white">
+                    Slot oyunu, en popüler casino oyunlarından biridir ve
+  tamamen şansa dayalıdır
+                   </p>
+                   <a class="flex items-center gap-1 text-primary hover:text-blue-700 text-xl group mt-4">
+                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="transition group-hover:stroke-blue-700" d="M25.1109 16.7133H6.60815" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path class="transition group-hover:stroke-blue-700" d="M18.5028 23.3215L25.1109 16.7134" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path class="transition group-hover:stroke-blue-700" d="M18.5028 10.1052L25.1109 16.7133" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+                     <p>Daha Fazla Gör</p>
+                   </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="border-[2.5px] border-[#4C280F] rounded-3xl p-4 pb-6 bg-gradient-1">
+                   <img alt="img" src="../img/[].png" class="rounded-3xl h-[225px] sm:h-[295px] w-full">
+                   <h4 class="text-2xl text-white font-semibold mt-4">Poker oyunu</h4>
+                   <p class="mt-3 text-xl text-white">
+                    Slot oyunu, en popüler casino oyunlarından biridir ve
+  tamamen şansa dayalıdır
+                   </p>
+                   <a class="flex items-center gap-1 text-primary hover:text-blue-700 text-xl group mt-4">
+                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="transition group-hover:stroke-blue-700" d="M25.1109 16.7133H6.60815" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path class="transition group-hover:stroke-blue-700" d="M18.5028 23.3215L25.1109 16.7134" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path class="transition group-hover:stroke-blue-700" d="M18.5028 10.1052L25.1109 16.7133" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+                     <p>Daha Fazla Gör</p>
+                   </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next !-right-6 !hidden sm:!flex"></div>
+          <div class="swiper-button-prev !-left-6 !hidden sm:!flex"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="md:mt-40 mt-24">
+      <div class="max-w-content mx-auto px-4">
+        <div class="flex flex-col md:flex-row text-center items-center justify-center md:justify-between gap-2">
+          <h2 class="font-semibold text-white text-2xl md:text-4xl">Bir bakışta hizmetlerimiz</h2>
+         <a class="flex items-center gap-1 text-primary hover:text-blue-700 text-xl group">
+          <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path class="transition group-hover:stroke-blue-700" d="M25.1109 16.7133H6.60815" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="transition group-hover:stroke-blue-700" d="M18.5028 23.3215L25.1109 16.7134" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="transition group-hover:stroke-blue-700" d="M18.5028 10.1052L25.1109 16.7133" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+           <p>Daha Fazla Gör</p>
+         </a>
+        </div>
+        <div class="md:mt-[72px] mt-14 grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4">
+          <div class="rounded-3xl bg-[#4C280F99] py-6 px-2 text-center">
+            <svg class="mx-auto w-24 xl:w-auto h-24 xl:h-auto" width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M114 102H108C104.688 102 102 99.312 102 96V66C102 62.688 104.688 60 108 60H114C120.63 60 126 65.37 126 72V90C126 96.63 120.63 102 114 102Z" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M36 102H30C23.37 102 18 96.63 18 90V72C18 65.37 23.37 60 30 60H36C39.312 60 42 62.688 42 66V96C42 99.312 39.312 102 36 102Z" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M111 60V57C111 35.46 93.54 18 72 18V18C50.46 18 33 35.46 33 57V60" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M75.75 127.5H68.25C64.11 127.5 60.75 124.14 60.75 120V120C60.75 115.86 64.11 112.5 68.25 112.5H75.75C79.89 112.5 83.25 115.86 83.25 120V120C83.25 124.14 79.89 127.5 75.75 127.5Z" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M83.25 120H96C102.63 120 108 114.63 108 108V102" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p class="mt-2 text-white text-2xl font-semibold">Destek</p>
+            <p class="mt-1 text-xl text-[#ADADAD]">Günün 24 saati destek</p>
+          </div>
+          <div class="rounded-3xl bg-[#4C280F99] py-6 px-2 text-center">
+            <svg class="mx-auto w-24 xl:w-auto h-24 xl:h-auto" width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M120 78.1254C120 100.774 92.1309 117.598 78.8407 124.353C74.5527 126.545 69.4738 126.55 65.1819 124.365C51.9007 117.616 24 100.751 24 78.1254V45.4163C24.0441 42.3512 26.3654 39.7994 29.4126 39.4662C42.1441 38.4987 54.3501 33.9847 64.6476 26.4356C69.0112 23.1881 74.9885 23.1881 79.3522 26.4356C89.6496 33.9847 101.856 38.4987 114.587 39.4662C117.634 39.7993 119.956 42.3511 120 45.4163V78.1254Z" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M81.6 69L69.6064 81L62.4 73.8" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            <p class="mt-2 text-white text-2xl font-semibold">güvenlik</p>
+            <p class="mt-1 text-xl text-[#ADADAD]">Güvenlik garantisi</p>
+          </div>
+          <div class="rounded-3xl bg-[#4C280F99] py-6 px-2 text-center">
+            <svg class="mx-auto w-24 xl:w-auto h-24 xl:h-auto" width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M110.184 33.8162C131.272 54.9046 131.272 89.0954 110.184 110.184C89.0957 131.272 54.9048 131.272 33.8166 110.184C12.7283 89.0953 12.7283 54.9044 33.8166 33.8162C54.9049 12.7279 89.0958 12.7279 110.184 33.8162" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M82.23 91.9979H65.388C61.68 91.9979 58.668 88.9919 58.668 85.2779V72.3059H82.23C87.624 72.3059 92.004 76.6799 92.004 82.0799V82.2299C91.998 87.6239 87.624 91.9979 82.23 91.9979V91.9979Z" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M79.86 72.306H58.668V58.824C58.668 55.056 61.722 52.002 65.49 52.002H79.86C85.338 52.002 89.784 56.442 89.784 61.926V62.388C89.784 67.866 85.344 72.306 79.86 72.306Z" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M65.34 52.02H52.02" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M65.4 91.98H52.02" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M79.38 45.3601V52.0201" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M63 45.3601V52.0201" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M63 98.64V91.98" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M79.38 98.64V91.98" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            <p class="mt-2 text-white text-2xl font-semibold">Kripto ödemesi</p>
+            <p class="mt-1 text-xl text-[#ADADAD]">Kolay kripto ödemesi</p>
+          </div>
+          <div class="rounded-3xl bg-[#4C280F99] py-6 px-2 text-center">
+            <svg class="mx-auto w-24 xl:w-auto h-24 xl:h-auto" width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M87.7679 96H56.2319C54.7919 96 53.3999 96.516 52.3079 97.458L31.0019 115.872C22.4759 123.24 9.41394 115.878 11.3279 104.778C14.7959 84.66 18.3179 64.218 21.8279 43.908C23.8139 32.406 33.7919 24 45.4739 24H98.5319C110.208 24 120.192 32.406 122.178 43.914C125.688 64.224 129.21 84.666 132.678 104.784C134.592 115.89 121.524 123.246 113.004 115.878L91.6979 97.464C90.5999 96.516 89.2079 96 87.7679 96Z" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M36 60H60" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M48 48V72" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M95.994 46.5C95.166 46.5 94.494 47.172 94.5 48C94.5 48.828 95.172 49.5 96 49.5C96.828 49.5 97.5 48.828 97.5 48C97.5 47.172 96.828 46.5 95.994 46.5" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M107.994 58.5C107.166 58.5 106.494 59.172 106.5 60C106.5 60.828 107.172 61.5 108 61.5C108.828 61.5 109.5 60.828 109.5 60C109.5 59.172 108.828 58.5 107.994 58.5" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M95.994 70.5C95.166 70.5 94.494 71.172 94.5 72C94.5 72.828 95.172 73.5 96 73.5C96.828 73.5 97.5 72.828 97.5 72C97.5 71.172 96.828 70.5 95.994 70.5" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M83.994 58.5C83.166 58.5 82.494 59.172 82.5 60C82.5 60.828 83.172 61.5 84 61.5C84.828 61.5 85.5 60.828 85.5 60C85.5 59.172 84.828 58.5 83.994 58.5" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            <p class="mt-2 text-white text-2xl font-semibold">Dijital oyunlar</p>
+            <p class="mt-1 text-xl text-[#ADADAD]">En iyi dijital oyunlar</p>
+          </div>
+          <div class="rounded-3xl bg-[#4C280F99] py-6 px-2 text-center">
+            <svg class="mx-auto w-24 xl:w-auto h-24 xl:h-auto" width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M120 48H24C20.688 48 18 50.688 18 54V66C18 69.312 20.688 72 24 72H120C123.312 72 126 69.312 126 66V54C126 50.688 123.312 48 120 48Z" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M72 126V48" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M94.176 39.6719C87.708 46.4039 77.526 47.9999 72.594 47.9999" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M72.5941 48C72.5941 48 69.6301 29.304 76.9201 21.72" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M94.176 39.6719C98.94 34.7159 98.94 26.6759 94.176 21.7199C89.412 16.7639 81.69 16.7639 76.926 21.7199" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M49.824 39.6719C56.292 46.4039 66.474 47.9999 71.406 47.9999" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M71.4061 48C71.4061 48 74.3701 29.304 67.0801 21.72" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M49.824 39.6719C45.06 34.7159 45.06 26.6759 49.824 21.7199C54.588 16.7639 62.31 16.7639 67.074 21.7199" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M114 72V120C114 123.312 111.312 126 108 126H36C32.688 126 30 123.312 30 120V72" stroke="#FFB937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            <p class="mt-2 text-white text-2xl font-semibold">Günlük bonuslar</p>
+            <p class="mt-1 text-xl text-[#ADADAD]">Günlük heyecan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="md:mt-40 mt-24">
+      <div class="max-w-content mx-auto px-4">
+        <div class="flex flex-col lg:flex-row text-center items-center justify-center md:justify-between gap-2">
+          <h2 class="font-semibold text-white text-2xl md:text-4xl">En güncel haber ve makaleler</h2>
+         <a class="flex items-center gap-1 text-primary hover:text-blue-700 text-xl group">
+          <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path class="transition group-hover:stroke-blue-700" d="M25.1109 16.7133H6.60815" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="transition group-hover:stroke-blue-700" d="M18.5028 23.3215L25.1109 16.7134" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="transition group-hover:stroke-blue-700" d="M18.5028 10.1052L25.1109 16.7133" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+           <p>Daha Fazla Gör</p>
+         </a>
+        </div>
+        <div class="swiper blog mt-[72px]">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="border-[2.5px] border-[#4C280F] rounded-3xl p-4 sm:pr-7 bg-gradient-2 grid grid-cols-12 gap-6">
+                <div class="sm:col-span-5 col-span-12">
+                  <img alt="img" src="../img/friends-having-fun-while-playing-board-game (2).png" class="rounded-3xl h-full w-full">
+                </div>
+                 <div class="sm:col-span-7 col-span-12 flex-col justify-between flex gap-2">
+                  <div>
+                    <h5 class="text-xl text-primary font-semibold">Haberler</h5>
+                     <h4 class="text-xl text-white font-semibold mt-2">En yeni dijital oyunları indirin</h4>
+                     <p class="mt-2 text-lg text-white">
+                      Son zamanlarda sağlığınız ve eğlenceniz için yeni
+                      dijital oyunlar güncellendi
+                     </p>
+                  </div>
+                   <div class="mt-6 flex items-center justify-between gap-2 flex-wrap">
+                     <a class="flex items-center gap-1 text-primary hover:text-blue-700 text-xl group">
+                      <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="transition group-hover:stroke-blue-700" d="M25.1109 16.7133H6.60815" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="transition group-hover:stroke-blue-700" d="M18.5028 23.3215L25.1109 16.7134" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="transition group-hover:stroke-blue-700" d="M18.5028 10.1052L25.1109 16.7133" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+                       <p>Daha Fazla Gör</p>
+                     </a>
+                     <div class="flex items-center gap-1.5 text-[#7A7A7A]">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 2.50488V6.50488" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8 2.50488V6.50488" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3 9.50488H21" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4.50488H5C3.895 4.50488 3 5.39988 3 6.50488V19.5049C3 20.6099 3.895 21.5049 5 21.5049H19C20.105 21.5049 21 20.6099 21 19.5049V6.50488C21 5.39988 20.105 4.50488 19 4.50488Z" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.013 13.2339C11.875 13.2339 11.763 13.3459 11.764 13.4839C11.764 13.6219 11.876 13.7339 12.014 13.7339C12.152 13.7339 12.264 13.6219 12.264 13.4839C12.264 13.3459 12.152 13.2339 12.013 13.2339" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.013 13.2339C16.875 13.2339 16.763 13.3459 16.764 13.4839C16.764 13.6219 16.876 13.7339 17.014 13.7339C17.152 13.7339 17.264 13.6219 17.264 13.4839C17.264 13.3459 17.152 13.2339 17.013 13.2339" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M7.01298 17.2339C6.87498 17.2339 6.76298 17.3459 6.76398 17.4839C6.76398 17.6219 6.87598 17.7339 7.01398 17.7339C7.15198 17.7339 7.26398 17.6219 7.26398 17.4839C7.26398 17.3459 7.15198 17.2339 7.01298 17.2339" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.013 17.2339C11.875 17.2339 11.763 17.3459 11.764 17.4839C11.764 17.6219 11.876 17.7339 12.014 17.7339C12.152 17.7339 12.264 17.6219 12.264 17.4839C12.264 17.3459 12.152 17.2339 12.013 17.2339" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                       <p>12 Ocak 2025</p>
+                     </div>
+                   </div>
+                 </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="border-[2.5px] border-[#4C280F] rounded-3xl p-4 sm:pr-7 bg-gradient-2 grid grid-cols-12 gap-6">
+                <div class="sm:col-span-5 col-span-12">
+                  <img alt="img" src="../img/roulette-wheel-spins-chips-stack-luck-risk-collide-generated-by-ai.png" class="rounded-3xl h-full w-full">
+                </div>
+                <div class="sm:col-span-7 col-span-12 flex-col justify-between flex gap-2">
+                  <div>
+                    <h5 class="text-xl text-primary font-semibold">Haberler</h5>
+                     <h4 class="text-xl text-white font-semibold mt-2">En yeni dijital oyunları indirin</h4>
+                     <p class="mt-2 text-lg text-white">
+                      Son zamanlarda sağlığınız ve eğlenceniz için yeni
+                      dijital oyunlar güncellendi
+                     </p>
+                  </div>
+                   <div class="mt-6 flex items-center justify-between gap-2 flex-wrap">
+                     <a class="flex items-center gap-1 text-primary hover:text-blue-700 text-xl group">
+                      <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="transition group-hover:stroke-blue-700" d="M25.1109 16.7133H6.60815" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="transition group-hover:stroke-blue-700" d="M18.5028 23.3215L25.1109 16.7134" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="transition group-hover:stroke-blue-700" d="M18.5028 10.1052L25.1109 16.7133" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+                       <p>Daha Fazla Gör</p>
+                     </a>
+                     <div class="flex items-center gap-1.5 text-[#7A7A7A]">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 2.50488V6.50488" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8 2.50488V6.50488" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3 9.50488H21" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4.50488H5C3.895 4.50488 3 5.39988 3 6.50488V19.5049C3 20.6099 3.895 21.5049 5 21.5049H19C20.105 21.5049 21 20.6099 21 19.5049V6.50488C21 5.39988 20.105 4.50488 19 4.50488Z" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.013 13.2339C11.875 13.2339 11.763 13.3459 11.764 13.4839C11.764 13.6219 11.876 13.7339 12.014 13.7339C12.152 13.7339 12.264 13.6219 12.264 13.4839C12.264 13.3459 12.152 13.2339 12.013 13.2339" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.013 13.2339C16.875 13.2339 16.763 13.3459 16.764 13.4839C16.764 13.6219 16.876 13.7339 17.014 13.7339C17.152 13.7339 17.264 13.6219 17.264 13.4839C17.264 13.3459 17.152 13.2339 17.013 13.2339" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M7.01298 17.2339C6.87498 17.2339 6.76298 17.3459 6.76398 17.4839C6.76398 17.6219 6.87598 17.7339 7.01398 17.7339C7.15198 17.7339 7.26398 17.6219 7.26398 17.4839C7.26398 17.3459 7.15198 17.2339 7.01298 17.2339" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.013 17.2339C11.875 17.2339 11.763 17.3459 11.764 17.4839C11.764 17.6219 11.876 17.7339 12.014 17.7339C12.152 17.7339 12.264 17.6219 12.264 17.4839C12.264 17.3459 12.152 17.2339 12.013 17.2339" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                       <p>12 Ocak 2025</p>
+                     </div>
+                   </div>
+                 </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="border-[2.5px] border-[#4C280F] rounded-3xl p-4 sm:pr-7 bg-gradient-2 grid grid-cols-12 gap-6">
+                <div class="sm:col-span-5 col-span-12">
+                  <img alt="img" src="../img/roulette-wheel-spins-chips-stack-luck-risk-collide-generated-by-ai.png" class="rounded-3xl h-full w-full">
+                </div>
+                <div class="sm:col-span-7 col-span-12 flex-col justify-between flex gap-2">
+                  <div>
+                    <h5 class="text-xl text-primary font-semibold">Haberler</h5>
+                     <h4 class="text-xl text-white font-semibold mt-2">En yeni dijital oyunları indirin</h4>
+                     <p class="mt-2 text-lg text-white">
+                      Son zamanlarda sağlığınız ve eğlenceniz için yeni
+                      dijital oyunlar güncellendi
+                     </p>
+                  </div>
+                   <div class="mt-6 flex items-center justify-between gap-2 flex-wrap">
+                     <a class="flex items-center gap-1 text-primary hover:text-blue-700 text-xl group">
+                      <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="transition group-hover:stroke-blue-700" d="M25.1109 16.7133H6.60815" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="transition group-hover:stroke-blue-700" d="M18.5028 23.3215L25.1109 16.7134" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="transition group-hover:stroke-blue-700" d="M18.5028 10.1052L25.1109 16.7133" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+                       <p>Daha Fazla Gör</p>
+                     </a>
+                     <div class="flex items-center gap-1.5 text-[#7A7A7A]">
+                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 2.50488V6.50488" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8 2.50488V6.50488" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3 9.50488H21" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4.50488H5C3.895 4.50488 3 5.39988 3 6.50488V19.5049C3 20.6099 3.895 21.5049 5 21.5049H19C20.105 21.5049 21 20.6099 21 19.5049V6.50488C21 5.39988 20.105 4.50488 19 4.50488Z" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.013 13.2339C11.875 13.2339 11.763 13.3459 11.764 13.4839C11.764 13.6219 11.876 13.7339 12.014 13.7339C12.152 13.7339 12.264 13.6219 12.264 13.4839C12.264 13.3459 12.152 13.2339 12.013 13.2339" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.013 13.2339C16.875 13.2339 16.763 13.3459 16.764 13.4839C16.764 13.6219 16.876 13.7339 17.014 13.7339C17.152 13.7339 17.264 13.6219 17.264 13.4839C17.264 13.3459 17.152 13.2339 17.013 13.2339" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M7.01298 17.2339C6.87498 17.2339 6.76298 17.3459 6.76398 17.4839C6.76398 17.6219 6.87598 17.7339 7.01398 17.7339C7.15198 17.7339 7.26398 17.6219 7.26398 17.4839C7.26398 17.3459 7.15198 17.2339 7.01298 17.2339" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.013 17.2339C11.875 17.2339 11.763 17.3459 11.764 17.4839C11.764 17.6219 11.876 17.7339 12.014 17.7339C12.152 17.7339 12.264 17.6219 12.264 17.4839C12.264 17.3459 12.152 17.2339 12.013 17.2339" stroke="#7A7A7A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                       <p>12 Ocak 2025</p>
+                     </div>
+                   </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="md:mt-40 mt-24">
+      <div class="max-w-content mx-auto px-4">
+        <h2 class="font-semibold text-white text-2xl md:text-4xl">Sıkça sorulan sorular</h2>
+        <p class="md:text-2xl text-lg text-[#ADADAD] mt-6">
+          Bu bölümde, kullanıcıların en sık sorduğu sorulara yanıt verdik, böylece rahat ve sorunsuz bir deneyim yaşayabilirsiniz
+        </p>
+          <div class="mt-10 grid md:grid-cols-2 grid-cols-1 gap-[26px]">
+            <div>
+              <div class="border-b border-[#4C280F] py-[18px] text-white hover:text-primary group transition">
+                <div class="flex items-center gap-4 text-lg sm:text-xl font-semibold cursor-pointer acordionBtn">
+                  <div class="w-10 h-10 flex-center bg-[#FFB937E5] rounded-lg flex-shrink-0">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7 7.25C6.58579 7.25 6.25 7.58579 6.25 8C6.25 8.41421 6.58579 8.75 7 8.75V7.25ZM17 8.75C17.4142 8.75 17.75 8.41421 17.75 8C17.75 7.58579 17.4142 7.25 17 7.25V8.75ZM7 11.25C6.58579 11.25 6.25 11.5858 6.25 12C6.25 12.4142 6.58579 12.75 7 12.75V11.25ZM15 12.75C15.4142 12.75 15.75 12.4142 15.75 12C15.75 11.5858 15.4142 11.25 15 11.25V12.75ZM7 15.25C6.58579 15.25 6.25 15.5858 6.25 16C6.25 16.4142 6.58579 16.75 7 16.75V15.25ZM9 16.75C9.41421 16.75 9.75 16.4142 9.75 16C9.75 15.5858 9.41421 15.25 9 15.25V16.75ZM14.4697 18.5303C14.7626 18.8232 15.2374 18.8232 15.5303 18.5303C15.8232 18.2374 15.8232 17.7626 15.5303 17.4697L14.4697 18.5303ZM13.5303 15.4697C13.2374 15.1768 12.7626 15.1768 12.4697 15.4697C12.1768 15.7626 12.1768 16.2374 12.4697 16.5303L13.5303 15.4697ZM18.5303 15.5303C18.8232 15.2374 18.8232 14.7626 18.5303 14.4697C18.2374 14.1768 17.7626 14.1768 17.4697 14.4697L18.5303 15.5303ZM14.4697 17.4697C14.1768 17.7626 14.1768 18.2374 14.4697 18.5303C14.7626 18.8232 15.2374 18.8232 15.5303 18.5303L14.4697 17.4697ZM7 8.75H17V7.25H7V8.75ZM7 12.75H15V11.25H7V12.75ZM7 16.75H9V15.25H7V16.75ZM19 20.25H5V21.75H19V20.25ZM5 20.25C4.30921 20.25 3.75 19.6908 3.75 19H2.25C2.25 20.5192 3.48079 21.75 5 21.75V20.25ZM3.75 19V5H2.25V19H3.75ZM3.75 5C3.75 4.30921 4.30921 3.75 5 3.75V2.25C3.48079 2.25 2.25 3.48079 2.25 5H3.75ZM5 3.75H19V2.25H5V3.75ZM19 3.75C19.6908 3.75 20.25 4.30921 20.25 5H21.75C21.75 3.48079 20.5192 2.25 19 2.25V3.75ZM20.25 5V19H21.75V5H20.25ZM20.25 19C20.25 19.6908 19.6908 20.25 19 20.25V21.75C20.5192 21.75 21.75 20.5192 21.75 19H20.25ZM15.5303 17.4697L13.5303 15.4697L12.4697 16.5303L14.4697 18.5303L15.5303 17.4697ZM17.4697 14.4697L14.4697 17.4697L15.5303 18.5303L18.5303 15.5303L17.4697 14.4697Z" fill="black"/>
+                      </svg>
+                  </div>
+                  <p>Siteye nasıl kayıt olabilirim?</p>
+                  <svg class="arrow ml-auto flex-shrink-0" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.55768 6.43506L9.00018 9.87756L12.4427 6.43506L13.5002 7.50006L9.00018 12.0001L4.50018 7.50006L5.55768 6.43506Z" fill="#ADADAD" class="group-hover:fill-primary transition"/>
+                  </svg>
+                </div>
+                <div class="acordionContent">
+                  <p class="mt-3 sm:ml-14 leading-7 text-[#ADADAD]">
+                    Kayıt olmak için "Kayıt Ol" butonuna tıklayın, gerekli bilgileri (e-posta, telefon numarası vb.) girin ve hesabınızı
+                    doğrulayın
+                  </p>
+                </div>
+              </div>
+              <div class="border-b border-[#4C280F] py-[18px] text-white hover:text-primary group transition">
+                <div class="flex items-center gap-4 text-lg sm:text-xl font-semibold cursor-pointer acordionBtn">
+                  <div class="w-10 h-10 flex-center bg-[#FFB937E5] rounded-lg flex-shrink-0">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 12V21" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M14 14L12 12L10 14" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M16 17H18C19.657 17 21 15.657 21 14V6C21 4.343 19.657 3 18 3H6C4.343 3 3 4.343 3 6V14C3 15.657 4.343 17 6 17H8" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M3 8H21" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </div>
+                  <p>Hesabımı nasıl para ile doldurabilirim?</p>
+                  <svg class="arrow ml-auto flex-shrink-0" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.55768 6.43506L9.00018 9.87756L12.4427 6.43506L13.5002 7.50006L9.00018 12.0001L4.50018 7.50006L5.55768 6.43506Z" fill="#ADADAD" class="group-hover:fill-primary transition"/>
+                  </svg>
+                </div>
+                <div class="acordionContent">
+                  <p class="mt-3 sm:ml-14 leading-7 text-[#ADADAD]">
+                    Kayıt olmak için "Kayıt Ol" butonuna tıklayın, gerekli bilgileri (e-posta, telefon numarası vb.) girin ve hesabınızı
+                    doğrulayın
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="border-b border-[#4C280F] py-[18px] text-white hover:text-primary group transition">
+                <div class="flex items-center gap-4 text-lg sm:text-xl font-semibold cursor-pointer acordionBtn">
+                  <div class="w-10 h-10 flex-center bg-[#FFB937E5] rounded-lg flex-shrink-0">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M18.364 5.63604C21.8787 9.15076 21.8787 14.8492 18.364 18.3639C14.8493 21.8787 9.1508 21.8787 5.6361 18.3639C2.12138 14.8492 2.12138 9.15074 5.6361 5.63604C9.15082 2.12132 14.8493 2.12132 18.364 5.63604" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.705 15.333H10.898C10.28 15.333 9.77802 14.832 9.77802 14.213V12.051H13.705C14.604 12.051 15.334 12.78 15.334 13.68V13.705C15.333 14.604 14.604 15.333 13.705 15.333V15.333Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.31 12.051H9.77802V9.80399C9.77802 9.17599 10.287 8.66699 10.915 8.66699H13.31C14.223 8.66699 14.964 9.40699 14.964 10.321V10.398C14.964 11.311 14.224 12.051 13.31 12.051Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10.89 8.66992H8.66998" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10.9 15.3301H8.66998" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M13.23 7.56006V8.67006" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10.5 7.56006V8.67006" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10.5 16.4401V15.3301" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M13.23 16.4401V15.3301" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </div>
+                  <p>Site kripto paraları destekliyor mu?</p>
+                  <svg class="arrow ml-auto flex-shrink-0" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.55768 6.43506L9.00018 9.87756L12.4427 6.43506L13.5002 7.50006L9.00018 12.0001L4.50018 7.50006L5.55768 6.43506Z" fill="#ADADAD" class="group-hover:fill-primary transition"/>
+                  </svg>
+                </div>
+                <div class="acordionContent">
+                  <p class="mt-3 sm:ml-14 leading-7 text-[#ADADAD]">
+                    Kayıt olmak için "Kayıt Ol" butonuna tıklayın, gerekli bilgileri (e-posta, telefon numarası vb.) girin ve hesabınızı
+                    doğrulayın
+                  </p>
+                </div>
+              </div>
+              <div class="border-b border-[#4C280F] py-[18px] text-white hover:text-primary group transition">
+                <div class="flex items-center gap-4 text-lg sm:text-xl font-semibold cursor-pointer acordionBtn">
+                  <div class="w-10 h-10 flex-center bg-[#FFB937E5] rounded-lg flex-shrink-0">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5.74675 14.7511C5.60871 14.7514 5.49706 14.8636 5.4973 15.0016C5.49754 15.1397 5.60957 15.2514 5.74762 15.2513C5.88566 15.2512 5.9975 15.1392 5.9975 15.0012C5.99721 14.8629 5.88501 14.751 5.74674 14.7511" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M9.99916 13.501C10.8279 13.501 11.4998 14.1728 11.4998 15.0016C11.4998 15.8304 10.8279 16.5022 9.99916 16.5022C9.17039 16.5022 8.49854 15.8304 8.49854 15.0016C8.49854 14.1728 9.17039 13.501 9.99916 13.501" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M17.002 12.0003V18.0028C17.002 19.1079 16.1062 20.0037 15.0012 20.0037H4.99595C4.46544 20.0035 3.95672 19.7927 3.58169 19.4174C3.20667 19.0422 2.99607 18.5334 2.99622 18.0028V11.9992C2.99636 11.4687 3.20724 10.96 3.58247 10.585C3.9577 10.21 4.46654 9.99936 4.99705 9.99951H15.0023C15.5328 9.99966 16.0415 10.2105 16.4166 10.5858C16.7916 10.961 17.0022 11.4698 17.002 12.0003Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M14.2516 15.2513C14.3896 15.2509 14.5013 15.1388 14.501 15.0008C14.5008 14.8627 14.3888 14.751 14.2507 14.7511C14.1127 14.7512 14.0008 14.8631 14.0008 15.0012C14.0011 15.1394 14.1133 15.2514 14.2516 15.2513" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M6.1955 9.99905L7.40632 5.48016L7.40663 5.47916C7.54407 4.96676 7.87943 4.52994 8.33894 4.2648C8.79845 3.99966 9.34447 3.92793 9.85687 4.06537L19.5201 6.65457L19.5211 6.65488C20.0335 6.79231 20.4703 7.12768 20.7355 7.58719C21.0006 8.04671 21.0723 8.59273 20.9348 9.10512L19.3813 14.9031C19.1018 15.9417 18.0499 16.5723 17.0021 16.3295" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </div>
+                  <p>Minimum yatırım ve çekim miktarı nedir</p>
+                  <svg class="arrow ml-auto flex-shrink-0" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.55768 6.43506L9.00018 9.87756L12.4427 6.43506L13.5002 7.50006L9.00018 12.0001L4.50018 7.50006L5.55768 6.43506Z" fill="#ADADAD" class="group-hover:fill-primary transition"/>
+                  </svg>
+                </div>
+                <div class="acordionContent">
+                  <p class="mt-3 sm:ml-14 leading-7 text-[#ADADAD]">
+                    Kayıt olmak için "Kayıt Ol" butonuna tıklayın, gerekli bilgileri (e-posta, telefon numarası vb.) girin ve hesabınızı
+                    doğrulayın
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer class="md:mt-40 mt-24 md:pb-[132px] pb-24">
+    <div class="max-w-content mx-auto px-4">
+     <div class="rounded-3xl bg-[#4C280F99] py-8 sm:py-12 sm:px-14 px-4 flex flex-col lg:flex-row items-center justify-between gap-y-5 gap-2">
+       <ul class="text-white text-2xl flex flex-col sm:flex-row items-center gap-y-7 sm:gap-16">
+        <li class="hover:text-primary">
+          <a>Ev</a>
+        </li>
+        <li class="hover:text-primary">
+          <a>Hakkımızda</a>
+        </li>
+        <li class="hover:text-primary">
+          <a>Hizmetler</a>
+        </li>
+        <li class="hover:text-primary">
+          <a>Haberler</a>
+        </li>
+       </ul>
+       <div class="flex items-center gap-6">
+         <a class="group">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="group-hover:stroke-blue-700 transition" fill-rule="evenodd" clip-rule="evenodd" d="M14.992 6H33.01C37.974 6 42 10.024 42 14.992V33.01C42 37.974 37.976 42 33.008 42H14.992C10.026 42 6 37.976 6 33.008V14.992C6 10.026 10.024 6 14.992 6V6Z" stroke="#FAB803" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path class="group-hover:stroke-blue-700 transition" d="M33.898 13.4261C33.526 13.4281 33.224 13.7301 33.224 14.1021C33.224 14.4741 33.528 14.7761 33.9 14.7761C34.272 14.7761 34.574 14.4741 34.574 14.1021C34.576 13.7281 34.272 13.4261 33.898 13.4261" stroke="#FAB803" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path class="group-hover:stroke-blue-700 transition" d="M29.0912 18.9086C31.903 21.7204 31.903 26.2792 29.0912 29.091C26.2794 31.9028 21.7207 31.9028 18.9089 29.091C16.0971 26.2792 16.0971 21.7204 18.9089 18.9086C21.7207 16.0969 26.2794 16.0969 29.0912 18.9086" stroke="#FAB803" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+         </a>
+         <a class="group">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="group-hover:stroke-blue-700 transition" fill-rule="evenodd" clip-rule="evenodd" d="M19.6882 30.9851L18.0635 25.6349L13.4096 24.1823C13.1692 24.1086 13.0022 23.8903 12.9941 23.639C12.9859 23.3876 13.1384 23.159 13.3736 23.0699L31.0829 16.239C31.3841 16.1245 31.7237 16.1825 31.9698 16.3904C32.216 16.5983 32.3299 16.9234 32.2674 17.2394L29.2922 31.2613C29.2114 31.6457 28.9403 31.9624 28.5731 32.1017C28.2058 32.241 27.7928 32.1837 27.4774 31.9496L23.2517 28.8283L20.7606 31.2533C20.5992 31.4101 20.3681 31.4723 20.1498 31.4177C19.9314 31.3631 19.7568 31.1995 19.6882 30.9851Z" stroke="#FAB803" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle class="group-hover:stroke-blue-700 transition" cx="23.9999" cy="24.0002" r="18.0075" stroke="#FAB803" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+         </a>
+         <a class="group">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="group-hover:stroke-blue-700 transition" d="M40 23C40 13.61 32.39 6 23 6C13.61 6 6 13.61 6 23C6 32.39 13.61 40 23 40" stroke="#FAB803" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path class="group-hover:stroke-blue-700 transition" d="M38.54 38.54L42 42" stroke="#FAB803" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path class="group-hover:stroke-blue-700 transition" d="M38.5356 31.4645C40.4883 33.4171 40.4883 36.5829 38.5356 38.5355C36.583 40.4881 33.4172 40.4881 31.4646 38.5355C29.512 36.5829 29.512 33.4171 31.4646 31.4645C33.4172 29.5118 36.583 29.5118 38.5356 31.4645" stroke="#FAB803" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path class="group-hover:stroke-blue-700 transition" d="M7.77405 30.5618H7.89005C13.556 30.5618 17.334 30.2378 17.334 24.8958C17.334 19.2298 23 19.2298 23 15.4518C23 11.2278 15.444 11.6738 15.444 7.89577V7.75977" stroke="#FAB803" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path class="group-hover:stroke-blue-700 transition" d="M40 23.0002H33.864C29.654 23.0002 27.42 18.0262 30.216 14.8782L34.278 10.3062" stroke="#FAB803" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+         </a>
+       </div>
+       <a href="#" class="flex items-center gap-1 text-xl text-primary group hover:text-blue-700">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="group-hover:stroke-blue-700 transition" fill-rule="evenodd" clip-rule="evenodd" d="M35 20V20C35 28.285 28.285 35 20 35V35C11.715 35 5 28.285 5 20V20C5 11.715 11.715 5 20 5V5C28.285 5 35 11.715 35 20Z" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path class="group-hover:stroke-blue-700 transition" d="M20 13.3335V26.6668" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path class="group-hover:stroke-blue-700 transition" d="M15 18.3335L20 13.3335L25 18.3335" stroke="#FAB803" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+         <p>yukarı</p>
+       </a>
+     </div>
+    </div>
+  </footer>
+
+  <script src="../js/swiper.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
+
+<!-- npx tailwindcss -i ./src/css/app.css -o ./dist/output.css --watch -->
